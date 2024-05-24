@@ -24,28 +24,26 @@ YT Scribe is a powerful Streamlit web app designed to transcribe and summarize Y
      pyenv local 3.11.9
      ```
 
-3. **Install Poetry**:
-   - If you don't have Poetry installed, you can install it using the following command:
-     ```bash
-     curl -sSL https://install.python-poetry.org | python3 -
-     ```
+3. **Create a virtual environment and activate it**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 4. **Install the required dependencies**:
-   - Use Poetry to install the dependencies:
-     ```bash
-     poetry install
-     ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 1. **Run the Streamlit app**:
    ```bash
-   poetry run streamlit run main.py
+   streamlit run main.py
    ```
 
-2. **Open your web browser** and go to `http://localhost:8501`.
-
-3. **Enter your OpenAI API key and the YouTube URL** to start transcribing and summarizing.
+2. **Open your web browser and go to [http://localhost:8501](http://localhost:8501)**.
+3. Enter your OpenAI API key and the YouTube URL to start transcribing and summarizing.
 
 ## Contributing
 
@@ -57,4 +55,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or support, please contact eisner.michaelj@gmail.com.
+For any inquiries or support, please contact [eisner.michaelj@gmail.com](mailto:eisner.michaelj@gmail.com).
