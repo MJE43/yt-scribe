@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "youtube-transcription-app"
+name = "yt-scribe"
 version = "0.1.0"
 description = "A Streamlit web app to transcribe and summarize YouTube videos using OpenAI's API."
-authors = ["Your Name <you@example.com>"]
+authors = ["Michael Eisner <eisner.michaelj@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.11.0,<3.12"
