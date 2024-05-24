@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "youtube-transcription-app"
+version = "0.1.0"
+description = "A Streamlit web app to transcribe and summarize YouTube videos using OpenAI's API."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11.0,<3.12"
+streamlit = "^1.27.2"
+yt-dlp = "^2023.3.3"
+openai = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
