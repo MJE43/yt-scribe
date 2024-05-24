@@ -1,5 +1,3 @@
-
-```markdown
 # YT Scribe
 
 YT Scribe is a powerful Streamlit web app designed to transcribe and summarize YouTube videos using OpenAI's Whisper and GPT-4 models. This tool allows users to easily extract insights and summaries from video content with a user-friendly interface.
@@ -15,7 +13,7 @@ YT Scribe is a powerful Streamlit web app designed to transcribe and summarize Y
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yt-scribe.git
+   git clone https://github.com/MJE43/yt-scribe.git
    cd yt-scribe
    ```
 
@@ -60,4 +58,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries or support, please contact eisner.michaelj@gmail.com.
-```
