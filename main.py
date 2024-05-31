@@ -50,7 +50,7 @@ def transcribe_audio(file_path, client, language=None, prompt=None):
                                                       language=language,
                                                       prompt=prompt,
                                                       response_format="json")
-    return transcript["text"]
+    return transcript
   except Exception as e:
     logging.error(f"Error transcribing audio: {e}")
     st.error(f"Error transcribing audio: {e}")
@@ -69,7 +69,7 @@ def summarize_text(transcript_text, client, length="brief"):
             "role": "user",
             "content": prompt
         }])
-    summary = response.choices[0].message["content"].strip()
+    summary = response.choices[0].message.content
     return summary
   except Exception as e:
     logging.error(f"Error generating summary: {e}")
